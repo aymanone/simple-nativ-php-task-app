@@ -1,0 +1,14 @@
+<?php
+$router->set_route("get","/","./controllers/index.php");
+$router->set_route("get","/signin","./controllers/sign_in.php");
+$router->set_route("get","/login","./controllers/login.php");
+$router->set_route("get","/mytasks","./controllers/login.php");
+$router->set_route("post","/new_user","./controllers/create_user.php");
+$router->set_route("post","/login","./controllers/get_user.php");
+$router->set_route("get","/mytasks","./controllers/tasks.php");
+$router->set_route("post","/create_task","./controllers/create_task.php");
+$router->set_route("get","/logout","./controllers/logout.php");
+$router->set_route("get","/load","./controllers/load_tasks.php");
+$router->set_route("get","/loadtasks","./views/load_tasks.php");
+$router->set_route("post","/update_task","./controllers/update_task.php");
+?>
